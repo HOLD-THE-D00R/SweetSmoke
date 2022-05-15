@@ -1,5 +1,5 @@
 /********** ADAPTIVE **********/
-@media (min-width: 575px) {
+@media (max-width: 575px) {
   .elfbar {
     width: 100vw;
     height: 100vh;

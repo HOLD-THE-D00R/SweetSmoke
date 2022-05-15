@@ -1,0 +1,635 @@
+/********** ADAPTIVE **********/
+@media (max-width: 575px) {
+  .product {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 160px auto 0 auto;
+  }
+  .product__col-two {
+    margin-top: 50px;
+  }
+  .product__img {
+    width: 100%;
+  }
+  .product__name {
+    color: #000;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .product__price {
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .product__buy {
+    margin-top: 50px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .product__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  .product__icon {
+    font-size: 25px;
+  }
+  .product__icon-text {
+    padding-left: 10px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  .product__phone {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__phone:hover {
+    color: #ff0000;
+  }
+  .product__tel {
+    letter-spacing: 1.5px;
+  }
+  .product__telegram {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__telegram:hover {
+    color: #2d9cd7;
+  }
+  .product__instagram {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__instagram:hover {
+    color: #f95046;
+  }
+  .product__characteristics {
+    margin-top: 50px;
+  }
+  .product__characteristics-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__characteristics-text {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    list-style: disc inside;
+  }
+  .product__characteristics-text li {
+    margin-top: 10px;
+  }
+  .product__description {
+    margin-top: 50px;
+  }
+  .product__description-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__description-text {
+    margin-top: 10px;
+    line-height: 1.4;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .product {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 160px auto 0 auto;
+  }
+  .product__col-two {
+    margin-top: 50px;
+  }
+  .product__img {
+    width: 100%;
+  }
+  .product__name {
+    color: #000;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .product__price {
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .product__buy {
+    margin-top: 50px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .product__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  .product__icon {
+    font-size: 25px;
+  }
+  .product__icon-text {
+    padding-left: 10px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  .product__phone {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__phone:hover {
+    color: #ff0000;
+  }
+  .product__tel {
+    letter-spacing: 1.5px;
+  }
+  .product__telegram {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__telegram:hover {
+    color: #2d9cd7;
+  }
+  .product__instagram {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__instagram:hover {
+    color: #f95046;
+  }
+  .product__characteristics {
+    margin-top: 50px;
+  }
+  .product__characteristics-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__characteristics-text {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    list-style: disc inside;
+  }
+  .product__characteristics-text li {
+    margin-top: 10px;
+  }
+  .product__description {
+    margin-top: 50px;
+  }
+  .product__description-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__description-text {
+    margin-top: 10px;
+    line-height: 1.4;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .product {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 160px auto 0 auto;
+  }
+  .product__col-two {
+    margin-top: 50px;
+  }
+  .product__img {
+    width: 100%;
+  }
+  .product__name {
+    color: #000;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .product__price {
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .product__buy {
+    margin-top: 50px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .product__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  .product__icon {
+    font-size: 25px;
+  }
+  .product__icon-text {
+    padding-left: 10px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  .product__phone {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__phone:hover {
+    color: #ff0000;
+  }
+  .product__tel {
+    letter-spacing: 1.5px;
+  }
+  .product__telegram {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__telegram:hover {
+    color: #2d9cd7;
+  }
+  .product__instagram {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__instagram:hover {
+    color: #f95046;
+  }
+  .product__characteristics {
+    margin-top: 50px;
+  }
+  .product__characteristics-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__characteristics-text {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    list-style: disc inside;
+  }
+  .product__characteristics-text li {
+    margin-top: 10px;
+  }
+  .product__description {
+    margin-top: 50px;
+  }
+  .product__description-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__description-text {
+    margin-top: 10px;
+    line-height: 1.4;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .product {
+    width: 990px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 160px auto 0 auto;
+  }
+  .product__img {
+    width: 500px;
+    height: 500px;
+  }
+  .product__name {
+    color: #000;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .product__price {
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .product__buy {
+    margin-top: 50px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .product__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  .product__icon {
+    font-size: 25px;
+  }
+  .product__icon-text {
+    padding-left: 10px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  .product__phone {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__phone:hover {
+    color: #ff0000;
+  }
+  .product__tel {
+    letter-spacing: 1.5px;
+  }
+  .product__telegram {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__telegram:hover {
+    color: #2d9cd7;
+  }
+  .product__instagram {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__instagram:hover {
+    color: #f95046;
+  }
+  .product__characteristics {
+    margin-top: 50px;
+  }
+  .product__characteristics-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__characteristics-text {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    list-style: disc inside;
+  }
+  .product__characteristics-text li {
+    margin-top: 10px;
+  }
+  .product__description {
+    margin-top: 50px;
+  }
+  .product__description-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__description-text {
+    margin-top: 10px;
+    line-height: 1.4;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .product {
+    width: 1110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 160px auto 0 auto;
+  }
+  .product__img {
+    width: 500px;
+    height: 500px;
+  }
+  .product__name {
+    color: #000;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .product__price {
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .product__buy {
+    margin-top: 50px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .product__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  .product__icon {
+    font-size: 25px;
+  }
+  .product__icon-text {
+    padding-left: 10px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  .product__phone {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__phone:hover {
+    color: #ff0000;
+  }
+  .product__tel {
+    letter-spacing: 1.5px;
+  }
+  .product__telegram {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__telegram:hover {
+    color: #2d9cd7;
+  }
+  .product__instagram {
+    color: #000;
+    -webkit-transition: 0.25s all ease-in-out;
+    transition: 0.25s all ease-in-out;
+  }
+  .product__instagram:hover {
+    color: #f95046;
+  }
+  .product__characteristics {
+    margin-top: 50px;
+  }
+  .product__characteristics-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__characteristics-text {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    list-style: disc inside;
+  }
+  .product__characteristics-text li {
+    margin-top: 10px;
+  }
+  .product__description {
+    margin-top: 50px;
+  }
+  .product__description-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+  .product__description-text {
+    margin-top: 10px;
+    line-height: 1.4;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=product-item.css.map */

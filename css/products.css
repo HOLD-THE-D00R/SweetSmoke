@@ -1,0 +1,682 @@
+@media (max-width: 575px) {
+  .elfbar-cyber {
+    width: 100vw;
+    height: 50vh;
+    background-image: url("../assets/img/Elf-Bar-Lux.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+  .products {
+    width: 90%;
+    margin: 100px auto 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .product {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+  .product--banana-ice {
+    font-size: 75px;
+  }
+  .product--banana-ice:hover {
+    background: #fed237;
+  }
+  .product--bluberry {
+    font-size: 55px;
+  }
+  .product--bluberry:hover {
+    background: #303b7a;
+  }
+  .product--blue-razz-lemonade {
+    font-size: 55px;
+  }
+  .product--blue-razz-lemonade:hover {
+    background: #243d52;
+  }
+  .product--cola {
+    font-size: 115px;
+  }
+  .product--cola:hover {
+    background: #f6c658;
+  }
+  .product--grape {
+    font-size: 95px;
+  }
+  .product--grape:hover {
+    background: #532980;
+  }
+  .product--kiwi-passionfruit-guava {
+    font-size: 72px;
+  }
+  .product--kiwi-passionfruit-guava:hover {
+    background: #4c6836;
+  }
+  .product--pina-colada {
+    font-size: 80px;
+  }
+  .product--pina-colada:hover {
+    background: #c0b26c;
+  }
+  .product--pineapple-peach-mango {
+    font-size: 57px;
+  }
+  .product--pineapple-peach-mango:hover {
+    background: #dd666b;
+  }
+  .product--pink-lemonade {
+    font-size: 57px;
+  }
+  .product--pink-lemonade:hover {
+    background: #d04183;
+  }
+  .product--strawberry-icecream {
+    font-size: 46px;
+  }
+  .product--strawberry-icecream:hover {
+    background: #4c2a28;
+  }
+  .product--watermelon {
+    font-size: 46px;
+  }
+  .product--watermelon:hover {
+    background: #2f655b;
+  }
+  .product:hover .product__name {
+    opacity: 1;
+  }
+  .product:hover .product__img {
+    width: 400px;
+    height: 400px;
+  }
+  .product__img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  .product__name {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .elfbar-cyber {
+    width: 100vw;
+    height: 50vh;
+    background-image: url("../assets/img/Elf-Bar-Lux.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+  .products {
+    width: 90%;
+    margin: 100px auto 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .product {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 100px 30px 0;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+  .product--banana-ice {
+    font-size: 75px;
+  }
+  .product--banana-ice:hover {
+    background: #fed237;
+  }
+  .product--bluberry {
+    font-size: 55px;
+  }
+  .product--bluberry:hover {
+    background: #303b7a;
+  }
+  .product--blue-razz-lemonade {
+    font-size: 55px;
+  }
+  .product--blue-razz-lemonade:hover {
+    background: #243d52;
+  }
+  .product--cola {
+    font-size: 115px;
+  }
+  .product--cola:hover {
+    background: #f6c658;
+  }
+  .product--grape {
+    font-size: 95px;
+  }
+  .product--grape:hover {
+    background: #532980;
+  }
+  .product--kiwi-passionfruit-guava {
+    font-size: 72px;
+  }
+  .product--kiwi-passionfruit-guava:hover {
+    background: #4c6836;
+  }
+  .product--pina-colada {
+    font-size: 80px;
+  }
+  .product--pina-colada:hover {
+    background: #c0b26c;
+  }
+  .product--pineapple-peach-mango {
+    font-size: 57px;
+  }
+  .product--pineapple-peach-mango:hover {
+    background: #dd666b;
+  }
+  .product--pink-lemonade {
+    font-size: 57px;
+  }
+  .product--pink-lemonade:hover {
+    background: #d04183;
+  }
+  .product--strawberry-icecream {
+    font-size: 46px;
+  }
+  .product--strawberry-icecream:hover {
+    background: #4c2a28;
+  }
+  .product--watermelon {
+    font-size: 46px;
+  }
+  .product--watermelon:hover {
+    background: #2f655b;
+  }
+  .product:hover .product__name {
+    opacity: 1;
+  }
+  .product:hover .product__img {
+    width: 400px;
+    height: 400px;
+  }
+  .product__img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  .product__name {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .elfbar-cyber {
+    width: 100vw;
+    height: 50vh;
+    background-image: url("../assets/img/Elf-Bar-Lux.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+  .products {
+    width: 90%;
+    margin: 100px auto 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .product {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 100px 30px 0;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+  .product--banana-ice {
+    font-size: 75px;
+  }
+  .product--banana-ice:hover {
+    background: #fed237;
+  }
+  .product--bluberry {
+    font-size: 55px;
+  }
+  .product--bluberry:hover {
+    background: #303b7a;
+  }
+  .product--blue-razz-lemonade {
+    font-size: 55px;
+  }
+  .product--blue-razz-lemonade:hover {
+    background: #243d52;
+  }
+  .product--cola {
+    font-size: 115px;
+  }
+  .product--cola:hover {
+    background: #f6c658;
+  }
+  .product--grape {
+    font-size: 95px;
+  }
+  .product--grape:hover {
+    background: #532980;
+  }
+  .product--kiwi-passionfruit-guava {
+    font-size: 72px;
+  }
+  .product--kiwi-passionfruit-guava:hover {
+    background: #4c6836;
+  }
+  .product--pina-colada {
+    font-size: 80px;
+  }
+  .product--pina-colada:hover {
+    background: #c0b26c;
+  }
+  .product--pineapple-peach-mango {
+    font-size: 57px;
+  }
+  .product--pineapple-peach-mango:hover {
+    background: #dd666b;
+  }
+  .product--pink-lemonade {
+    font-size: 57px;
+  }
+  .product--pink-lemonade:hover {
+    background: #d04183;
+  }
+  .product--strawberry-icecream {
+    font-size: 46px;
+  }
+  .product--strawberry-icecream:hover {
+    background: #4c2a28;
+  }
+  .product--watermelon {
+    font-size: 46px;
+  }
+  .product--watermelon:hover {
+    background: #2f655b;
+  }
+  .product:hover .product__name {
+    opacity: 1;
+  }
+  .product:hover .product__img {
+    width: 400px;
+    height: 400px;
+  }
+  .product__img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  .product__name {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .elfbar-cyber {
+    width: 100vw;
+    height: 50vh;
+    background-image: url("../assets/img/Elf-Bar-Lux.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+  .products {
+    width: 90%;
+    margin: 100px auto 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .product {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 100px 30px 0;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+  .product--banana-ice {
+    font-size: 75px;
+  }
+  .product--banana-ice:hover {
+    background: #fed237;
+  }
+  .product--bluberry {
+    font-size: 55px;
+  }
+  .product--bluberry:hover {
+    background: #303b7a;
+  }
+  .product--blue-razz-lemonade {
+    font-size: 55px;
+  }
+  .product--blue-razz-lemonade:hover {
+    background: #243d52;
+  }
+  .product--cola {
+    font-size: 115px;
+  }
+  .product--cola:hover {
+    background: #f6c658;
+  }
+  .product--grape {
+    font-size: 95px;
+  }
+  .product--grape:hover {
+    background: #532980;
+  }
+  .product--kiwi-passionfruit-guava {
+    font-size: 72px;
+  }
+  .product--kiwi-passionfruit-guava:hover {
+    background: #4c6836;
+  }
+  .product--pina-colada {
+    font-size: 80px;
+  }
+  .product--pina-colada:hover {
+    background: #c0b26c;
+  }
+  .product--pineapple-peach-mango {
+    font-size: 57px;
+  }
+  .product--pineapple-peach-mango:hover {
+    background: #dd666b;
+  }
+  .product--pink-lemonade {
+    font-size: 57px;
+  }
+  .product--pink-lemonade:hover {
+    background: #d04183;
+  }
+  .product--strawberry-icecream {
+    font-size: 46px;
+  }
+  .product--strawberry-icecream:hover {
+    background: #4c2a28;
+  }
+  .product--watermelon {
+    font-size: 46px;
+  }
+  .product--watermelon:hover {
+    background: #2f655b;
+  }
+  .product:hover .product__name {
+    opacity: 1;
+  }
+  .product:hover .product__img {
+    width: 400px;
+    height: 400px;
+  }
+  .product__img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  .product__name {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .elfbar-cyber {
+    width: 100vw;
+    height: 50vh;
+    background-image: url("../assets/img/Elf-Bar-Lux.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+  .products {
+    width: 90%;
+    margin: 100px auto 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .product {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 100px 30px 0;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+  .product--banana-ice {
+    font-size: 75px;
+  }
+  .product--banana-ice:hover {
+    background: #fed237;
+  }
+  .product--bluberry {
+    font-size: 55px;
+  }
+  .product--bluberry:hover {
+    background: #303b7a;
+  }
+  .product--blue-razz-lemonade {
+    font-size: 55px;
+  }
+  .product--blue-razz-lemonade:hover {
+    background: #243d52;
+  }
+  .product--cola {
+    font-size: 115px;
+  }
+  .product--cola:hover {
+    background: #f6c658;
+  }
+  .product--grape {
+    font-size: 95px;
+  }
+  .product--grape:hover {
+    background: #532980;
+  }
+  .product--kiwi-passionfruit-guava {
+    font-size: 72px;
+  }
+  .product--kiwi-passionfruit-guava:hover {
+    background: #4c6836;
+  }
+  .product--pina-colada {
+    font-size: 80px;
+  }
+  .product--pina-colada:hover {
+    background: #c0b26c;
+  }
+  .product--pineapple-peach-mango {
+    font-size: 57px;
+  }
+  .product--pineapple-peach-mango:hover {
+    background: #dd666b;
+  }
+  .product--pink-lemonade {
+    font-size: 57px;
+  }
+  .product--pink-lemonade:hover {
+    background: #d04183;
+  }
+  .product--strawberry-icecream {
+    font-size: 46px;
+  }
+  .product--strawberry-icecream:hover {
+    background: #4c2a28;
+  }
+  .product--watermelon {
+    font-size: 46px;
+  }
+  .product--watermelon:hover {
+    background: #2f655b;
+  }
+  .product:hover .product__name {
+    opacity: 1;
+  }
+  .product:hover .product__img {
+    width: 400px;
+    height: 400px;
+  }
+  .product__img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  .product__name {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=products.css.map */
